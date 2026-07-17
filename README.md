@@ -1,4 +1,12 @@
-# Physics-Informed Digital Twins Research
+# Open Digital Twin Research Framework (ODTRF)
+
+An open framework for reproducible research on physics-informed digital twins of electromechanical systems.
+
+## Mission
+
+To develop an open, reproducible and extensible research framework for
+physics-informed digital twins based on mathematical modeling, acausal
+simulation, synthetic data, state estimation and heterogeneous computing.
 
 ## Descripción
 
