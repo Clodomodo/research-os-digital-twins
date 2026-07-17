@@ -189,6 +189,17 @@ reproducible mediante:
 
 # Estado del proyecto
 
+
+---
+
+## Estado del repositorio
+
+Este repositorio contiene documentación metodológica,
+arquitecturas conceptuales y material reproducible asociado
+a una línea de investigación en desarrollo.
+
+Los modelos, datos experimentales y componentes propietarios
+no publicados pueden mantenerse fuera de este repositorio.
 En desarrollo continuo.
 
 Cada módulo representa una parte de una metodología general para construir
