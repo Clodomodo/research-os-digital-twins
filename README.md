@@ -1,48 +1,195 @@
-# research-os-digital-twins
-Laboratorio digital del Clodomodo
-
 # Physics-Informed Digital Twins Research
 
 ## Descripción
 
-Este repositorio documenta una línea de investigación enfocada en:
+Repositorio de investigación dedicado al desarrollo de metodologías
+reproducibles para el análisis, modelado y validación de sistemas
+electromecánicos mediante:
 
-- Modelado acausal de sistemas electromecánicos.
 - Gemelos digitales basados en física.
-- Generación de datos sintéticos.
+- Modelado acausal.
+- Simulación multifísica.
+- Datos sintéticos informados por física.
 - Sensores virtuales.
-- Simulación distribuida con infraestructura heterogénea.
-- Validación experimental reproducible.
+- Computación distribuida heterogénea.
 
-## Línea de investigación
+---
 
-Modelado, simulación y validación de sistemas eléctricos y electromecánicos mediante métodos computacionales reproducibles.
+# Línea de investigación
 
-## Sistemas estudiados
+## Modelado, simulación y validación de sistemas eléctricos y electromecánicos mediante gemelos digitales y computación reproducible.
 
-- Generadores síncronos de imanes permanentes de flujo axial (AF-PMSG).
-- Sistemas multifísicos electromagnético-térmicos-mecánicos.
-- Máquinas trifásicas y futuras extensiones multifásicas.
+La investigación busca desarrollar herramientas abiertas y metodologías
+reproducibles para sistemas electromecánicos complejos.
 
-## Herramientas
+---
 
-- Python
-- OpenModelica
-- Modelica
-- ngspice
-- Falstad
-- Git
-- Obsidian
+# Problema científico
 
-## Filosofía
+Los gemelos digitales de alta fidelidad requieren:
 
-El objetivo es desarrollar metodologías reproducibles utilizando herramientas abiertas e infraestructura accesible.
+- Modelos físicos adecuados.
+- Datos confiables.
+- Alta capacidad computacional.
+- Métodos de validación.
 
-## Publicaciones
+Este proyecto estudia cómo integrar estos elementos utilizando herramientas
+abiertas e infraestructura accesible.
 
-- Hybrid Statistical Modeling of an Axial Flux PMSG Using Experimental and Physics-Informed Synthetic Data.
-- Digital Twin-Driven Anomaly Detection in Additively Manufactured Axial Flux Generators Under Purely Resistive Loads.
+---
 
-## Estado
+# Metodología
 
-Proyecto en desarrollo.
+   Sistema físico
+
+    ↓
+
+Modelo matemático
+
+    ↓
+
+Modelo acausal
+
+    ↓
+
+Simulación multifísica
+
+    ↓
+
+Datos sintéticos + experimentales
+
+    ↓
+
+Modelo híbrido
+
+    ↓
+
+Sensor virtual
+
+    ↓
+
+Gemelo digital
+
+    ↓
+
+Diagnóstico
+
+
+---
+
+# Sistema principal de estudio
+
+## Generadores síncronos de imanes permanentes de flujo axial (AF-PMSG)
+
+Dominios considerados:
+
+- Electromagnético.
+- Térmico.
+- Mecánico.
+- Análisis de señales.
+
+---
+
+# Arquitectura computacional
+
+La investigación explora una arquitectura heterogénea basada en:
+
+- Python como orquestador.
+- OpenModelica como motor de simulación.
+- Cinco computadoras con diferentes capacidades.
+- Ejecución distribuida de simulaciones.
+
+Objetivo:
+
+Evaluar metodologías accesibles para gemelos digitales de alta fidelidad.
+
+---
+
+# Productos científicos
+
+## Artículos en revisión
+
+### Hybrid Statistical Modeling of an Axial Flux PMSG Using Experimental and Physics-Informed Synthetic Data
+
+Enfoque:
+
+Modelo híbrido utilizando datos experimentales y datos sintéticos generados mediante modelos físicos.
+
+---
+
+### Digital Twin-Driven Anomaly Detection in Additively Manufactured Axial Flux Generators Under Purely Resistive Loads
+
+Enfoque:
+
+Aplicación de gemelos digitales para detección de anomalías.
+
+---
+
+## Protocolos
+
+### Orquestación heterogénea Edge-to-Cloud para gemelos digitales de alta fidelidad en generadores de flujo axial
+
+---
+
+## Libros
+
+### Análisis de circuitos con ngspice, Falstad y Python
+
+Publicado con DOI.
+
+---
+
+### Mi amigo Fourier y su compañero Laplace
+
+Capítulos en revisión.
+
+---
+
+# Estructura del repositorio
+
+docs/
+LGAC
+metodología
+roadmap
+reproducibilidad
+arquitectura edge-cloud
+
+models/
+OpenModelica
+
+src/
+Python
+
+datasets/
+Datos sintéticos y experimentales
+
+experiments/
+Registros experimentales
+
+papers/
+Producción científica
+
+references/
+Fundamentos bibliográficos
+
+
+---
+
+# Filosofía
+
+Este proyecto busca demostrar que es posible desarrollar investigación
+reproducible mediante:
+
+- Software abierto.
+- Documentación transparente.
+- Validación experimental.
+- Infraestructura accesible.
+
+---
+
+# Estado del proyecto
+
+En desarrollo continuo.
+
+Cada módulo representa una parte de una metodología general para construir
+gemelos digitales reproducibles de sistemas electromecánicos.
